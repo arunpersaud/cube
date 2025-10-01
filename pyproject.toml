@@ -1,0 +1,25 @@
+[project]
+name = "cube"
+version = "0.1.0"
+description = "Rubik's cube timing analytics"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "docopt>=0.6",
+    "matplotlib>=3.8",
+    "platformdirs>=4.2",
+    "pandas>=2.2",
+    "pyarrow>=15",
+]
+
+[project.scripts]
+cube = "cube.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.22,<0.9.0"]
+build-backend = "uv_build"
