@@ -1,3 +1,8 @@
+[![License: GPL v3+](https://img.shields.io/badge/License-GPLv3%2B-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Ruff](https://img.shields.io/badge/code%20style-ruff-brightgreen.svg)](https://github.com/astral-sh/ruff)
+[![Package Manager: uv](https://img.shields.io/badge/package%20manager-uv-blue)](https://github.com/astral-sh/uv)
+
+
 # Cube
 
 Cube is a Python toolkit for collecting, storing, and visualising Rubik's Cube solve
