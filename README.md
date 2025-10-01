@@ -28,7 +28,7 @@ dataset path.
 
 - `uv add <package>` manages dependencies in `pyproject.toml`
 - `uv run pytest` executes the automated test suite
-
+- install [prek](https://prek.j178.dev/) for pre-commit hooks
 
 ## Other packages
 

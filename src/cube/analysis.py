@@ -5,7 +5,7 @@ from typing import Mapping
 
 import pandas as pd
 
-from .metrics import apply_time_features, summary_stats
+from .metrics import apply_time_features
 from .storage import read_parquet
 
 _SORT_COLUMNS = ("datetime", "session", "solve_index")
